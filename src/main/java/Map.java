@@ -5,8 +5,8 @@ public class Map {
     /**
      * Метод подсчета одинаковых элементов в HashMap, поиск производится по фамилии и имени
      *
-     * @param lastName - фамилия
-     * @param firstName - имя
+     * @param lastName - фамилия для проверки
+     * @param firstName - имя для проверки
      * @return int - количество одинаковых элементов в HashMap
      */
     public static int countElementsInMap(String lastName, String firstName) {
